@@ -952,8 +952,12 @@ span, a, a:hover {
      [ 15 Start Contact ]
 -----------------------------------------------------------------*/
 .page-contact {
-  position: relative;
-  border-bottom: 1px solid #eee; }
+    background-image: url(../img/contact.jpg);
+    background-repeat: no-repeat;
+    position: relative;
+    border-bottom: 1px solid #eee;
+    background-size: contain;
+    background-position: right; }
 
 .form input, .form textarea {
   background-color: #fff;
@@ -1088,6 +1092,14 @@ span, a, a:hover {
     margin-top: 50px;
     padding: 20px 0; }
 
+.footer .item h5 {
+  font-size: 22px;
+  font-weight: 400px !important;
+}
+.footer .mb-15 {
+    margin-bottom: 5px !important;
+}
+
 /* ----------------------------------------------------------------
      [ End Footer ]
 -----------------------------------------------------------------*/
@@ -1207,3 +1219,5 @@ span, a, a:hover {
 -----------------------------------------------------------------*/
 
 /*# sourceMappingURL=style.css.map */
+
+
