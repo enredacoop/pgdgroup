@@ -30,6 +30,13 @@
 
     </head>
 
+    <style type="text/css">
+        .post-img {height: 222px;}
+        .img {height: 222px;}
+        .img3 {max-height: 100%;}
+        .serv-item {height: 425px;}        }
+    </style>
+
     <body>
 
     	<!-- =====================================
@@ -85,7 +92,7 @@
 			        <a class="nav-link" href="#" data-scroll-nav="6" data-i18n="nav.contact"></a>
 			      </li>
                   <li class="nav-item">
-                  <a style="color: white" class="nav-link" href="#" id="changelang" data-lang="en" aria-hidden="true"><i class="fa fa-flag" > </i>English</a>
+                  <a style="color: white" class="nav-link" href="#" id="changelang" data-lang="en" aria-hidden="true"><i class="fa fa-flag" > </i> English</a>
                   </li>
                           
 
@@ -106,38 +113,21 @@
                 <div class="text-center item bg-img" data-overlay-dark="8" data-background="img/bg01.jpg">
                     <div class="v-middle caption mt-30">
                         <div class="o-hidden">
-                            <h4 data-i18n="frame1.title1"></h4>
                             <h1 data-i18n="frame1.title2"></h1>
-                            <p data-i18n="frame1.description"></p>
-
-                            <a href="#0" class="butn butn-bg mt-30">
-                                <span data-i18n="frame1.button"></span>
-                            </a>
                         </div>
                     </div>
                 </div>
-                <div class="text-center item bg-img" data-overlay-dark="8" data-background="img/bg02.jpg">
+                <div class="text-center item bg-img" data-overlay-dark="8" data-background="img/bg02.jpeg">
                     <div class="v-middle caption mt-30">
                         <div class="o-hidden">
-                            <h4 data-i18n="frame2.title1"></h4>
                             <h1 data-i18n="frame2.title2"></h1>
-                            <p data-i18n="frame2.description"></p>
-                            <a href="#0" class="butn butn-bg mt-30">
-                                <span data-i18n="frame2.button"></span>
-                            </a>
-
                         </div>
                     </div>
                 </div>
                 <div class="text-center item bg-img" data-overlay-dark="8" data-background="img/bg03.jpg">
                     <div class="v-middle caption mt-30">
                         <div class="o-hidden">
-                            <h4 data-i18n="frame3.title1"></h4>
                             <h1 data-i18n="frame3.title2"></h1>
-                            <p data-i18n="frame3.description"></p>
-                            <a href="#0" class="butn butn-bg mt-30">
-                                <span data-i18n="frame3.button"></span>
-                            </a>
                         </div>
                     </div>
                 </div>
@@ -267,9 +257,8 @@
                 <div class="row">
 
                     <div class="section-head text-center col-sm-12">
-                        <h6>Our Services</h6>
-                        <h4>Our <span>Awesome</span> Features</h4>
-                        <p> Lorem ipsum dolor sit amet, in quodsi vulputate pro. Ubique maluisset vel te, his dico vituperata ut. in quodsi Ubique maluisset vel tehis dico vituperata. </p>
+                        <h4 data-i18n="service.title"></h6>
+                        <p data-i18n="service.description"></p>
                     </div>
 
                     <div class="col-lg-4 col-md-6">
@@ -348,21 +337,19 @@
                 <div class="row">
 
                     <div class="section-head text-center col-sm-12">
-                        <h6>Our Portfolio</h6>
-                        <h4>Latest <span>Creative</span> Work</h4>
-                        <p>Lorem ipsum dolor sit amet, in quodsi vulputate pro. Ubique maluisset vel te, his dico vituperata ut. in quodsi Ubique maluisset vel tehis dico vituperata.</p>
+                        <h4 data-i18n="portfolio.title"></h4>
+                        <p data-i18n="portfolio.description"></p>
                     </div>
 
                     <!-- filter links -->
                     <div class="filtering text-center mb-30 col-sm-12">
                         <div class="filter">
                             <span data-filter='*' class="active" data-i18n="portfolio.obj1"></span>
-                            <span data-filter='.electronica' data-i18n="portfolio.obj2"></span>
-                            <span data-filter='.textil' data-i18n="portfolio.obj3"></span>
-                            <span data-filter='.escritorio' data-i18n="portfolio.obj4"></span>
-                            <span data-filter='.ocio' data-i18n="portfolio.obj5"></span>
-                            <span data-filter='.complementos' data-i18n="portfolio.obj6"></span>
-                            <span data-filter='.otros' data-i18n="portfolio.obj7"></span>
+                            <span data-i18n="portfolio.obj2"></span>
+                            <span data-i18n="portfolio.obj3"></span>
+                            <span data-i18n="portfolio.obj4"></span>
+                            <span data-i18n="portfolio.obj5"></span>
+                            <span data-i18n="portfolio.obj6"></span>
                         </div>
                     </div>
 
@@ -372,14 +359,14 @@
                     <div class="gallery full-width">
 
                         <!-- gallery item Electrónica, textil, escritorio, ocio y tiempo libre, complementos, otros. -->
-                        <div class="col-lg-4 col-md-6 items electronica">
+                        <div class="col-lg-4 col-md-6 items">
                             <div class="item-img">
-                                <img src="img/portfolio/1.jpg" alt="image">
+                                <img src="img/portfolio/1.jpeg" alt="image">
                                 <div class="item-img-overlay">
                                     <div class="overlay-info full-width">
-                                        <p>Electrónica</p>
-                                        <h6>Electrónica</h6>
-                                        <a href="img/portfolio/1.jpg" class="popimg">
+                                        <p data-i18n="portfolio.obj2"></p>
+                                        <h6 data-i18n="portfolio.description2"></h6>
+                                        <a href="img/portfolio/1.jpeg" class="popimg">
                                             <span class="icon"><i class="fas fa-search-plus"></i></span>
                                         </a>
                                     </div>
@@ -388,14 +375,14 @@
                         </div>
 
                         <!-- gallery item -->
-                        <div class="col-lg-4 col-md-6 items textil">
+                        <div class="col-lg-4 col-md-6 items">
                             <div class="item-img">
-                                <img src="img/portfolio/2.jpg" alt="image">
+                                <img src="img/portfolio/2.jpeg" alt="image">
                                 <div class="item-img-overlay">
                                     <div class="overlay-info full-width">
-                                        <p>Textil</p>
-                                        <h6>Ropa, complementos,...</h6>
-                                        <a href="img/portfolio/2.jpg" class="popimg">
+                                        <p data-i18n="portfolio.obj3"></p>
+                                        <h6 data-i18n="portfolio.description3"></h6>
+                                        <a href="img/portfolio/2.jpeg" class="popimg">
                                             <span class="icon"><i class="fas fa-search-plus"></i></span>
                                         </a>
                                     </div>
@@ -404,14 +391,14 @@
                         </div>
 
                         <!-- gallery item -->
-                        <div class="col-lg-4 col-md-6 items ocio">
+                        <div class="col-lg-4 col-md-6 items">
                             <div class="item-img">
-                                <img src="img/portfolio/3.jpg" alt="image">
+                                <img src="img/portfolio/3.jpeg" alt="image">
                                 <div class="item-img-overlay">
                                     <div class="overlay-info full-width">
-                                        <p>Escritorio</p>
-                                        <h6></h6>
-                                        <a href="img/portfolio/3.jpg" class="popimg">
+                                        <p data-i18n="portfolio.obj4"></p>
+                                        <h6 data-i18n="portfolio.description4"></h6>
+                                        <a href="img/portfolio/3.jpeg" class="popimg">
                                             <span class="icon"><i class="fas fa-search-plus"></i></span>
                                         </a>
                                     </div>
@@ -420,14 +407,14 @@
                         </div>
 
                         <!-- gallery item -->
-                        <div class="col-lg-4 col-md-6 items complementos">
+                        <div class="col-lg-4 col-md-6 items">
                             <div class="item-img">
-                                <img src="img/portfolio/4.jpg" alt="image">
+                                <img src="img/portfolio/4.jpeg" alt="image">
                                 <div class="item-img-overlay">
                                     <div class="overlay-info full-width">
-                                        <p>Ocio y tiempo libre</p>
-                                        <h6>juegos, ....</h6>
-                                        <a href="img/portfolio/4.jpg" class="popimg">
+                                        <p data-i18n="portfolio.obj5"></p>
+                                        <h6 data-i18n="portfolio.description5"></h6>
+                                        <a href="img/portfolio/4.jpeg" class="popimg">
                                             <span class="icon"><i class="fas fa-search-plus"></i></span>
                                         </a>
                                     </div>
@@ -436,20 +423,37 @@
                         </div>
 
                         <!-- gallery item -->
-                        <div class="col-lg-4 col-md-6 items electronica">
-                            <div class="item-img">
-                                <img src="img/portfolio/5.jpg" alt="image">
+                        <div class="col-lg-4 col-md-6 items">
+                            <div class="item-img" style="height: 480px;">
+                                <img src="img/portfolio/5.jpeg" style="max-height: 100%; "alt="image">
                                 <div class="item-img-overlay">
                                     <div class="overlay-info full-width">
-                                        <p>Logo | Branding</p>
-                                        <h6>Creative Web Design</h6>
-                                        <a href="img/portfolio/5.jpg" class="popimg">
+                                        <p data-i18n="portfolio.obj6"></p>
+                                        <h6 data-i18n="portfolio.description6"></h6>
+                                        <a href="img/portfolio/5.jpeg" class="popimg">
                                             <span class="icon"><i class="fas fa-search-plus"></i></span>
                                         </a>
                                     </div>
                                 </div>
                             </div>
                         </div>
+
+
+                        <!-- gallery item -->
+                        <div class="col-lg-4 col-md-6 items">
+                            <div class="item-img">
+                                <img src="img/portfolio/6.jpeg" alt="image">
+                                <div class="item-img-overlay">
+                                    <div class="overlay-info full-width">
+                                        <p data-i18n="portfolio.obj7"></p>
+                                        <h6 data-i18n="portfolio.description7"></h6>
+                                        <a href="img/portfolio/6.jpeg" class="popimg">
+                                            <span class="icon"><i class="fas fa-search-plus"></i></span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> 
 
 
 
@@ -471,46 +475,7 @@
             <div class="container">
                 <div class="row">
 
-                    <div class="col-lg-3 col-md-6">
-                        <div class="item text-center mb-md50">
-                            <span class="icon">
-                                <i class="ti-cup"></i>
-                            </span>
-                            <h3 class="count">168</h3>
-                            <h6>Awards Achieved</h6>
-
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6">
-                        <div class="item text-center mb-md50">
-                            <span class="icon">
-                                <i class="ti-layers"></i>
-                            </span>
-                            <h3 class="count">946</h3>
-                            <h6>Complete Projects</h6>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6">
-                        <div class="item text-center mb-sm50">
-                            <span class="icon">
-                                <i class="ti-download"></i>
-                            </span>
-                            <h3 class="count">578</h3>
-                            <h6>Files Downloaded</h6>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6">
-                        <div class="item text-center">
-                            <span class="icon">
-                                <i class="ti-pencil-alt"></i>
-                            </span>
-                            <h3 class="count">6846</h3>
-                            <h6>Liens Of Code</h6>
-                        </div>
-                    </div>
+                    
 
                 </div>
             </div>
@@ -887,28 +852,19 @@
                 <div class="row">
 
                     <div class="section-head text-center col-sm-12">
-                        <h6 data-i18n="sectors.title"></h6>
-                        <p>Lorem ipsum dolor sit amet, in quodsi vulputate pro. Ubique maluisset vel te, his dico vituperata ut. in quodsi Ubique maluisset vel tehis dico vituperata.</p>
+                        <h4 data-i18n="sectors.title"></h4>
+                        <p data-i18n="sectors.description"></p>
                     </div>
 
                     <div class="col-lg-4">
                         <div class="item mb-md50">
-                            <div class="post-img">
+                            <div class="post-img"">
                                 <div class="img">
-                                    <img src="img/blog/01.jpg" alt="">
-                                </div>
-                                <div class="tag">
-                                    <a href="#0" data-i18n="sectors.obj1"><span class="icon"><i class="fas fa-tags"></i></span></a>
+                                    <img class="img3" src="img/blog/01.jpeg" alt="">
                                 </div>
                             </div>
                             <div class="cont text-center">
-                                <h6><a href="blog-single.html">Contrary to popular belief</a></h6>
-                                <p>Sit sagittis vulputate laoreet sodales tortor nulla loboroties bibendum netus primis fames. Laborties ultricies for the dummy text.</p>
-                                <div class="info">
-                                    <a href="#0"><span class="icon"><i class="fas fa-user"></i></span>Admin</a>
-                                    <a href="#0"><span class="icon"><i class="far fa-comments"></i></span>15 Comments</a>
-                                    <a href="#0"><span class="icon"><i class="fa fa-heart"></i></span>23 Like</a>
-                                </div>
+                                <h6><a href="blog-single.html" data-i18n="sectors.obj1"></a></h6>
                             </div>
                         </div>
                     </div>
@@ -917,20 +873,11 @@
                         <div class="item mb-md50">
                             <div class="post-img">
                                 <div class="img">
-                                    <img src="img/blog/02.jpg" alt="">
-                                </div>
-                                <div class="tag">
-                                    <a href="#0" data-i18n="sectors.obj2"><span class="icon"><i class="fas fa-tags"></i></span></a>
+                                    <img class="img3" src="img/blog/02.jpeg" alt="">
                                 </div>
                             </div>
                             <div class="cont text-center">
-                                <h6><a href="blog-single.html">There are many variations</a></h6>
-                                <p>Sit sagittis vulputate laoreet sodales tortor nulla loboroties bibendum netus primis fames. Laborties ultricies for the dummy text.</p>
-                                <div class="info">
-                                    <a href="#0"><span class="icon"><i class="fas fa-user"></i></span>Admin</a>
-                                    <a href="#0"><span class="icon"><i class="far fa-comments"></i></span>15 Comments</a>
-                                    <a href="#0"><span class="icon"><i class="fa fa-heart"></i></span>23 Like</a>
-                                </div>
+                                <h6><a href="blog-single.html" data-i18n="sectors.obj2"></a></h6>
                             </div>
                         </div>
                     </div>
@@ -939,20 +886,11 @@
                         <div class="item">
                             <div class="post-img">
                                 <div class="img">
-                                    <img src="img/blog/03.jpg" alt="">
-                                </div>
-                                <div class="tag">
-                                    <a href="#0" data-i18n="sectors.obj3"><span class="icon"><i class="fas fa-tags"></i></span></a>
+                                    <img class="img3" src="img/blog/03.jpeg" alt="">
                                 </div>
                             </div>
                             <div class="cont text-center">
-                                <h6><a href="blog-single.html">Top Budget Hacks For Your</a></h6>
-                                <p>Sit sagittis vulputate laoreet sodales tortor nulla loboroties bibendum netus primis fames. Laborties ultricies for the dummy text.</p>
-                                <div class="info">
-                                    <a href="#0"><span class="icon"><i class="fas fa-user"></i></span>Admin</a>
-                                    <a href="#0"><span class="icon"><i class="far fa-comments"></i></span>15 Comments</a>
-                                    <a href="#0"><span class="icon"><i class="fa fa-heart"></i></span>23 Like</a>
-                                </div>
+                                <h6><a href="blog-single.html" data-i18n="sectors.obj3"></a></h6>
                             </div>
                         </div>
                     </div>
@@ -960,20 +898,11 @@
                         <div class="item">
                             <div class="post-img">
                                 <div class="img">
-                                    <img src="img/blog/03.jpg" alt="">
-                                </div>
-                                <div class="tag">
-                                    <a href="#0" data-i18n="sectors.obj4"><span class="icon"><i class="fas fa-tags"></i></span></a>
+                                    <img class="img3" src="img/blog/04.jpeg" alt="">
                                 </div>
                             </div>
                             <div class="cont text-center">
-                                <h6><a href="blog-single.html">Top Budget Hacks For Your</a></h6>
-                                <p>Sit sagittis vulputate laoreet sodales tortor nulla loboroties bibendum netus primis fames. Laborties ultricies for the dummy text.</p>
-                                <div class="info">
-                                    <a href="#0"><span class="icon"><i class="fas fa-user"></i></span>Admin</a>
-                                    <a href="#0"><span class="icon"><i class="far fa-comments"></i></span>15 Comments</a>
-                                    <a href="#0"><span class="icon"><i class="fa fa-heart"></i></span>23 Like</a>
-                                </div>
+                                <h6><a href="blog-single.html" data-i18n="sectors.obj4"></a></h6>
                             </div>
                         </div>
                     </div>
@@ -981,20 +910,11 @@
                         <div class="item">
                             <div class="post-img">
                                 <div class="img">
-                                    <img src="img/blog/03.jpg" alt="">
-                                </div>
-                                <div class="tag">
-                                    <a href="#0" data-i18n="sectors.obj5"><span class="icon"><i class="fas fa-tags"></i></span></a>
+                                    <img class="img3" src="img/blog/05.jpeg" alt="">
                                 </div>
                             </div>
                             <div class="cont text-center">
-                                <h6><a href="blog-single.html">Top Budget Hacks For Your</a></h6>
-                                <p>Sit sagittis vulputate laoreet sodales tortor nulla loboroties bibendum netus primis fames. Laborties ultricies for the dummy text.</p>
-                                <div class="info">
-                                    <a href="#0"><span class="icon"><i class="fas fa-user"></i></span>Admin</a>
-                                    <a href="#0"><span class="icon"><i class="far fa-comments"></i></span>15 Comments</a>
-                                    <a href="#0"><span class="icon"><i class="fa fa-heart"></i></span>23 Like</a>
-                                </div>
+                                <h6><a href="blog-single.html" data-i18n="sectors.obj5"></a></h6>
                             </div>
                         </div>
                     </div>
@@ -1002,20 +922,11 @@
                         <div class="item">
                             <div class="post-img">
                                 <div class="img">
-                                    <img src="img/blog/03.jpg" alt="">
-                                </div>
-                                <div class="tag">
-                                    <a href="#0" data-i18n="sectors.obj6"><span class="icon"><i class="fas fa-tags"></i></span></a>
+                                    <img class="img3" src="img/blog/03.jpg" alt="">
                                 </div>
                             </div>
                             <div class="cont text-center">
-                                <h6><a href="blog-single.html">Top Budget Hacks For Your</a></h6>
-                                <p>Sit sagittis vulputate laoreet sodales tortor nulla loboroties bibendum netus primis fames. Laborties ultricies for the dummy text.</p>
-                                <div class="info">
-                                    <a href="#0"><span class="icon"><i class="fas fa-user"></i></span>Admin</a>
-                                    <a href="#0"><span class="icon"><i class="far fa-comments"></i></span>15 Comments</a>
-                                    <a href="#0"><span class="icon"><i class="fa fa-heart"></i></span>23 Like</a>
-                                </div>
+                                <h6><a href="blog-single.html" data-i18n="sectors.obj6"></a></h6>
                             </div>
                         </div>
                     </div>
@@ -1073,9 +984,8 @@
                 <div class="row">
 
                     <div class="section-head text-center col-sm-12">
-                        <h6>Contact Us</h6>
-                        <h4>Get <span>In</span> Touch</h4>
-                        <p> Lorem ipsum dolor sit amet, in quodsi vulputate pro. Ubique maluisset vel te, his dico vituperata ut. in quodsi Ubique maluisset vel tehis dico vituperata.</p>
+                        <h4 data-i18n="contact.title"></h4>
+                        <p data-i18n="contact.description"></p>
                     </div>
 
                     <div class="col-lg-6">

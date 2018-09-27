@@ -1,0 +1,72 @@
+{
+  "nav": {
+    "inicio": "Home",
+    "about": "About Us",
+    "services": "Services",
+    "portfolio": "Portfolio",
+    "prices": "Prizes",
+    "sectors": "Sectors",
+    "contact": "Contact"
+  },
+  "frame1": {
+    "title1": "Lorem Ipsum",
+    "title2": "Lorem ipsum dolor sit, amet.",
+    "description": "Lorem ipsum dolor sit amet consectetur, adipiscing elit habitasse etiam."
+  },
+  "frame2": {
+    "title1": "Lorem Ipsum",
+    "title2": "Lorem ipsum dolor sit, amet.",
+    "description": "Lorem ipsum dolor sit amet consectetur, adipiscing elit habitasse etiam."
+  },
+  "frame3": {
+    "title1": "Lorem Ipsum",
+    "title2": "Lorem ipsum dolor sit, amet.",
+    "description": "Lorem ipsum dolor sit amet consectetur, adipiscing elit habitasse etiam."
+  },
+  "company": {
+    "question": "¿Por qué elegir nuestra empresa?",
+    "explication": "PGD Group es una consultoría especializada en el Mercado Promocional con más de 8 años de experiencia donde ponemos a disposición de nuestros clientes nacionales e internacionales nuestra perspectiva de innovación siempre enfocada a resultados."
+  },
+  "service1": {
+    "title": "Oficinas de Compras",
+    "description": "Equipo de 6 personas en Shenzhen (China) y 3 personas en Hanoi (Vietnam) encargadas de realizar las auditorias de las fábricas y compras de los productos."
+  },
+  "service2": {
+    "title": "Diseño y producción",
+    "description": "Servicio para la personalización de los productos solicitados por nuestros clientes adaptándonos a sus necesidades y requerimientos."
+  },
+  "service3": {
+    "title": "Control de Calidad",
+    "description": "Todas nuestras fábricas son previamente auditadas por PGD Group para evitar problemas durante la producción y posteriormente se pasa un control de calidad a todos los productos fabricados basados en el nivel de AQL que requiera nuestro cliente."
+  },
+  "service4": {
+    "title": "Almacenamiento y Distribución",
+    "description": "Disponemos de almacenes propios en China, Vietnam y en España, teniendo así la posibilidad de poder hacer distribuciones a cualquier punto de España independientemente del número de envíos o destinos."
+  },
+  "service5": {
+    "title": "Servicio Técnico",
+    "description": "Este Servicio esta creado para atender y satisfacer las necesidades de nuestros clientes y de sus clientes al mismo tiempo."
+  },
+  "service6": {
+    "title": "Call Center",
+    "description": "Un grupo de personas formadas previamente se pueden encargar de dar el soporte necesario para cualquier producto o acción."
+  },
+  "portfolio": {
+    "obj1": "All",
+    "obj2": "Electrónica",
+    "obj3": "Textil",
+    "obj4": "Escritorio",
+    "obj5": "Ocio y Tiempo Libre",
+    "obj6": "Complements",
+    "obj7": "Others"
+  },
+  "sectors": {
+    "title": "Nuestros Sectores",
+    "obj1": "Retail",
+    "obj2": "Banca",
+    "obj3": "Automoción",
+    "obj4": "Alimentación",
+    "obj5": "Farmacéutico",
+    "obj6": "Otros"
+  }
+}
