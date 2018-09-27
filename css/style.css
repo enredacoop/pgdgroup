@@ -526,7 +526,7 @@ span, a, a:hover {
   border: 1px solid #eee;
   padding: 50px;
   text-align: center;
-  transition: all 0.3s ease-in-out; }
+  transition: all 0.3s ease-in-out; min-height: 450px; }
   .services .serv-item:hover {
     background-color: #fff;
     border-radius: 5px;
