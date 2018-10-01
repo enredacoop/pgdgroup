@@ -9,42 +9,40 @@
     "contact": "Contact"
   },
   "frame1": {
-    "title1": "Lorem Ipsum",
-    "title2": "Lorem ipsum dolor sit, amet.",
-    "description": "Lorem ipsum dolor sit amet consectetur, adipiscing elit habitasse etiam."
+    "title2": "WE CREATE YOUR PROMOTIONAL CAMPAIGN"
   },
   "frame2": {
-    "title1": "Lorem Ipsum",
-    "title2": "Lorem ipsum dolor sit, amet.",
-    "description": "Lorem ipsum dolor sit amet consectetur, adipiscing elit habitasse etiam."
+    "title2": "WE CREATE YOUR PROMOTIONAL CAMPAIGN"
   },
   "frame3": {
-    "title1": "Lorem Ipsum",
-    "title2": "Lorem ipsum dolor sit, amet.",
-    "description": "Lorem ipsum dolor sit amet consectetur, adipiscing elit habitasse etiam."
+    "title2": "WE CREATE YOUR PROMOTIONAL CAMPAIGN"
   },
   "company": {
-    "question": "¿Por qué elegir nuestra empresa?",
+    "question": "Why choose our company?",
     "explication": "PGD Group es una consultoría especializada en el Mercado Promocional con más de 8 años de experiencia donde ponemos a disposición de nuestros clientes nacionales e internacionales nuestra perspectiva de innovación siempre enfocada a resultados."
   },
+    "service": {
+    "title": "Our Services",
+    "description": "PGD pone a su disposición todos los servicios necesarios para poder desarrollar su campaña promocional desde la creación de la idea hasta la atención al cliente final cubriendo todas las necesidades."
+  },
   "service1": {
-    "title": "Oficinas de Compras",
+    "title": "Purchasing Offices",
     "description": "Equipo de 6 personas en Shenzhen (China) y 3 personas en Hanoi (Vietnam) encargadas de realizar las auditorias de las fábricas y compras de los productos."
   },
   "service2": {
-    "title": "Diseño y producción",
+    "title": "Design & Production",
     "description": "Servicio para la personalización de los productos solicitados por nuestros clientes adaptándonos a sus necesidades y requerimientos."
   },
   "service3": {
-    "title": "Control de Calidad",
+    "title": "Quality Assurance",
     "description": "Todas nuestras fábricas son previamente auditadas por PGD Group para evitar problemas durante la producción y posteriormente se pasa un control de calidad a todos los productos fabricados basados en el nivel de AQL que requiera nuestro cliente."
   },
   "service4": {
-    "title": "Almacenamiento y Distribución",
+    "title": "Storage & Distribution",
     "description": "Disponemos de almacenes propios en China, Vietnam y en España, teniendo así la posibilidad de poder hacer distribuciones a cualquier punto de España independientemente del número de envíos o destinos."
   },
   "service5": {
-    "title": "Servicio Técnico",
+    "title": "Technical Service",
     "description": "Este Servicio esta creado para atender y satisfacer las necesidades de nuestros clientes y de sus clientes al mismo tiempo."
   },
   "service6": {
@@ -52,21 +50,53 @@
     "description": "Un grupo de personas formadas previamente se pueden encargar de dar el soporte necesario para cualquier producto o acción."
   },
   "portfolio": {
-    "obj1": "All",
+    "title": "Our Portfolio",
+    "description": "La experiencia y versatilidad de nuestro equipo permite crear cualquier campaña para cualquier sector relacionado con el Marketing Promocional.",
+    "obj1": "Todas",
     "obj2": "Electrónica",
+    "description2": "Smartwatch, Smartband, Cámaras Deportivas, Memorias USB, Altavoces Bluetooth, Tablets, Auriculares Bluetooth...",
     "obj3": "Textil",
+    "description3": "Camisetas, Sudaderas, Gorras, Muñequeras, Landyar, Paraguas, Delantales, Cojines, Mochilas, Toallas...",
     "obj4": "Escritorio",
+    "description4": "Calculadoras, Alfombrillas, Juegos de Escritorio, Blocs de Notas, Libretas, Bolígrafos...",
     "obj5": "Ocio y Tiempo Libre",
-    "obj6": "Complements",
-    "obj7": "Others"
+    "description5": "Vasos, Copas, Posavasos, Termos, Mini Macetas, Neveritas USB, Pelotas, Pulseras, Gafas de Sol...",
+    "obj6": "Complementos",
+    "description6": "Monederos, Carteras, Porta Pasaportes, Maletas, Maletines para Portátil, Tazas...",
+    "obj7": "Otros",
+    "description7": "Menaje, PAE, Belleza, Industrial, Imagen & Sonido, Alimentación, Editorial..."
   },
   "sectors": {
     "title": "Nuestros Sectores",
+    "description" : "Tras los años de experiencia que nos avalan, estamos presentes en clientes de los sectores más relevantes como:",
     "obj1": "Retail",
-    "obj2": "Banca",
-    "obj3": "Automoción",
-    "obj4": "Alimentación",
-    "obj5": "Farmacéutico",
-    "obj6": "Otros"
+    "obj2": "Banking",
+    "obj3": "Automotive",
+    "obj4": "Nutrition",
+    "obj5": "Pharmacy",
+    "obj6": "Others"
+  },
+  "contact": {
+    "title": "Contact",
+    "description": "Quedamos a su disposición para cualquier pregunta o duda que tengan. Nuestro personal de Atención al Cliente estará encantado de poder ayudarles.",
+    "button": "Send Message",
+    "name": "Name *",
+    "name-error": "El nombre es obligatorio",
+    "email": "Email *",
+    "email-error": "Debe introducir un email válido",
+    "phone": "Phone *",
+    "phone-error": "Debe introducir un teléfono válido",
+    "subject": "Subject",
+    "message": "Your Message *",
+    "message-error": "Message is required"
+  },
+  "footer":{
+    "links": "Links",
+    "directions": "Localizations"
+  },
+  "directions":{
+    "spain": "Spain",
+    "china": "China",
+    "vietnam": "Vietnam"
   }
 }
