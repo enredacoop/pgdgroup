@@ -78,6 +78,25 @@
   },
   "contact": {
     "title": "Contacto",
-    "description": "Quedamos a su disposición para cualquier pregunta o duda que tengan. Nuestro personal de Atención al Cliente estará encantado de poder ayudarles."
+    "description": "Quedamos a su disposición para cualquier pregunta o duda que tengan. Nuestro personal de Atención al Cliente estará encantado de poder ayudarles.",
+    "button": "Enviar Mensaje",
+    "name": "Nombre *",
+    "name-error": "El nombre es obligatorio",
+    "email": "Email *",
+    "email-error": "Debe introducir un email válido",
+    "phone": "Teléfono *",
+    "phone-error": "Debe introducir un teléfono válido",
+    "subject": "Asunto",
+    "message": "Tu Mensaje *",
+    "message-error": "El campo mensaje es obligatorio"
+  },
+  "footer":{
+    "links": "Enlaces",
+    "directions": "Direcciones"
+  },
+  "directions":{
+    "spain": "España",
+    "china": "China",
+    "vietnam": "Vietnam"
   }
 }

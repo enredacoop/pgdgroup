@@ -12,7 +12,7 @@
 		<meta name="author" content="" />
 
 		<!-- Title  -->
-		<title>PDG Group</title>
+		<title>PGD Group</title>
 
 		<!-- Favicon -->
 		<link rel="shortcut icon" href="img/favicon.png" />
@@ -336,14 +336,14 @@
 
                     <!-- filter links -->
                     <div class="filtering text-center mb-30 col-sm-12">
-                        <div class="filter">
+                        <!-- div class="filter">
                             <span data-filter='*' class="active" data-i18n="portfolio.obj1"></span>
                             <span data-i18n="portfolio.obj2"></span>
                             <span data-i18n="portfolio.obj3"></span>
                             <span data-i18n="portfolio.obj4"></span>
                             <span data-i18n="portfolio.obj5"></span>
                             <span data-i18n="portfolio.obj6"></span>
-                        </div>
+                        </div -->
                     </div>
 
                     <div class="clearfix"></div>
@@ -464,15 +464,12 @@
         <!-- =====================================
         ==== Start Numbers -->
 
-        <div class="numbers section-padding bg-img bg-fixed" data-overlay-dark="8" data-background="img/bg-counter.jpg">
+        <!-- div class="numbers section-padding bg-img bg-fixed" data-overlay-dark="8" data-background="img/bg-counter.jpg">
             <div class="container">
                 <div class="row">
-
-                    
-
                 </div>
             </div>
-        </div>
+        </div -->
 
         <!-- End Numbers ====
         ======================================= -->
@@ -935,10 +932,10 @@
         <!-- =====================================
         ==== Start Clients -->
 
-        <div class="clients text-center bg-gray pt-50 pb-50">
+        <!-- <div class="clients text-center bg-gray pt-50 pb-50">
             <div class="container">
                 <div class="row">
-                <!--
+
                      <div class="owl-carousel owl-theme col-sm-12">
                         <a href="#0">
                             <img src="img/clients-logo/1.png" alt="">
@@ -959,10 +956,9 @@
                             <img src="img/clients-logo/1.png" alt="">
                         </a>
                     </div>
-                -->
                 </div>
             </div>
-        </div>
+        </div> -->
 
         <!-- End Clients ====
         ======================================= -->
@@ -992,30 +988,35 @@
 
                                     <div class="col-md-6">
                                         <div class="form-group">
-                                            <input id="form_name" type="text" name="name" placeholder="Name *" required="required" data-error="Firstname is required.">
+                                            <input id="form_name" type="text" name="name" data-i18n="[placeholder]contact.name" required="required" data-i18n="[error]contact.name-error">
                                             <div class="help-block with-errors"></div>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-group">
-                                            <input id="form_email" type="email" name="email" placeholder="Email *" required="required" data-error="Valid email is required.">
+                                            <input id="form_email" type="email" name="email" data-i18n="[placeholder]contact.email" required="required" data-i18n="[error]contact.email-error">
                                             <div class="help-block with-errors"></div>
                                         </div>
                                     </div>
                                     <div class="col-md-12">
                                         <div class="form-group">
-                                            <input id="form_subject" type="text" name="subject" placeholder="Subject">
+                                            <input id="form_phone" type="tel" name="phone" data-i18n="[placeholder]contact.phone" required="required" data-i18n="[error]contact.phone-error">
                                         </div>
                                     </div>
                                     <div class="col-md-12">
                                         <div class="form-group">
-                                            <textarea id="form_message" name="message" placeholder="Your Message *" rows="4" required="required" data-error="Your message is required."></textarea>
+                                            <input id="form_subject" type="text" name="subject" data-i18n="[placeholder]contact.subject">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <textarea id="form_message" name="message" data-i18n="[placeholder]contact.message" rows="4" required="required" data-i18n="[error]contact.message-error"></textarea>
                                             <div class="help-block with-errors"></div>
                                         </div>
                                     </div>
 
                                     <div class="col-md-12 text-center">
-                                        <button type="submit" class="butn butn-bg"><span>Send Message</span></button>
+                                        <button type="submit" class="butn butn-bg"><span data-i18n="contact.button"></span></button>
                                     </div>
 
                                 </div>
@@ -1068,14 +1069,14 @@
                     <div class="col-lg-4">
                         <div class="mb-md50">
                             <div class="title">
-                                <h5>Enlaces</h5>
+                                <h5 data-i18n="footer.links"></h5>
                             </div>
                             <ul class="footer-widget-list">
-                                <li><a href="">Sobre nosotros</a></li>
-                                <li><a href="">Servicios</a></li>
-                                <li><a href="">Portfolio </a></li>
-                                <li><a href="">Sectores</a></li>
-                                <li><a href="">Contacta</a></li>
+                                <li><a href="#" data-scroll-nav="1" data-i18n="nav.about"></a></li>
+                                <li><a href="#" data-scroll-nav="2" data-i18n="nav.services"></a></li>
+                                <li><a href="#" data-scroll-nav="3" data-i18n="nav.portfolio"></a></li>
+                                <li><a href="#" data-scroll-nav="5" data-i18n="nav.sectors"></a></li>
+                                <li><a href="#" data-scroll-nav="6" data-i18n="nav.contact"></a></li>
                             </ul>
                         </div>
                     </div>
@@ -1083,23 +1084,23 @@
                     <div class="col-lg-4">
                         <div class="las-post mb-md50">
                             <div class="title">
-                                <h5>Direcciones</h5>
+                                <h5 data-i18n="footer.directions"></h5>
                             </div>
                             <div class="item mb-15">
                                 <a href="#0">                                 
-                                    <h5>España</h5>
+                                    <h5 data-i18n="directions.spain" style="color: #0495d6"></h5>
                                         <h6>C/ cuarteles nº43, 1ª Planta <br> Cp. 29002<br>Málaga</h6>
                                 </a>
                             </div>
                             <div class="item mb-15">
                                 <a href="#0">
-                                     <h5>China</h5>
+                                     <h5 data-i18n="directions.china" style="color: #0495d6"></h5>
                                         <h6>Fl4. Donshan NO. 8 <br>Gushu, Xixiang,Baoan Dist,<br>Shenzhen</h6>
                                 </a>
                             </div>
                             <div class="item">
                                 <a href="#0">
-                                         <h5>Vietnam</h5>
+                                         <h5 data-i18n="directions.vietnam" style="color: #0495d6"></h5>
                                         <h6>Indochina <br>Riverside Tower 74 Bach Dang Str <br>Da Nang City</h6>
                                 </a>
                             </div>
