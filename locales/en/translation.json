@@ -19,56 +19,94 @@
   },
   "company": {
     "question": "Why choose our company?",
-    "explication": "PGD Group es una consultoría especializada en el Mercado Promocional con más de 8 años de experiencia donde ponemos a disposición de nuestros clientes nacionales e internacionales nuestra perspectiva de innovación siempre enfocada a resultados."
+    "explication": "PGD Group is a consulting firm specializing in the promotional market with more than 8 years of experience where we put at the disposal of our nationals and internationals clients our perspective of innovation, always focused on objectives."
   },
     "service": {
     "title": "Our Services",
-    "description": "PGD pone a su disposición todos los servicios necesarios para poder desarrollar su campaña promocional desde la creación de la idea hasta la atención al cliente final cubriendo todas las necesidades."
+    "description": "PGD puts at your disposal all the necessary services in order to develop its promotional campaign since the inception of the idea to the final customer final covering all their needs.."
   },
   "service1": {
     "title": "Purchasing Offices",
-    "description": "Equipo de 6 personas en Shenzhen (China) y 3 personas en Hanoi (Vietnam) encargadas de realizar las auditorias de las fábricas y compras de los productos."
+    "description": "Team of 6 people in Shenzhen (China) and 3 people in Hanoi (VietNam) responsible for performing audits of factories and purchases of products."
   },
   "service2": {
     "title": "Design & Production",
-    "description": "Servicio para la personalización de los productos solicitados por nuestros clientes adaptándonos a sus necesidades y requerimientos."
+    "description": "Service for the personalization of products requested by our clients, adapting to their needs and requirements."
   },
   "service3": {
     "title": "Quality Assurance",
-    "description": "Todas nuestras fábricas son previamente auditadas por PGD Group para evitar problemas durante la producción y posteriormente se pasa un control de calidad a todos los productos fabricados basados en el nivel de AQL que requiera nuestro cliente."
+    "description": "All our factories are previously audited by the PGD Group to avoid problems during production and subsequently passed a quality control on all manufactured products based on the level of AQL required by our client."
   },
   "service4": {
     "title": "Storage & Distribution",
-    "description": "Disponemos de almacenes propios en China, Vietnam y en España, teniendo así la posibilidad de poder hacer distribuciones a cualquier punto de España independientemente del número de envíos o destinos."
+    "description": "We have warehouses in China, VietNam and in Spain, thus having the possibility to make distributions to anywhere in Spain regardless of the number of shipments or destinations."
   },
   "service5": {
     "title": "Technical Service",
-    "description": "Este Servicio esta creado para atender y satisfacer las necesidades de nuestros clientes y de sus clientes al mismo tiempo."
+    "description": "This service is created to serve and satisfy the needs of our clients and customers at the same time."
   },
   "service6": {
     "title": "Call Center",
-    "description": "Un grupo de personas formadas previamente se pueden encargar de dar el soporte necesario para cualquier producto o acción."
+    "description": "A group of people previously formed can be ordered to give the necessary support for any product or action."
   },
   "portfolio": {
     "title": "Our Portfolio",
-    "description": "La experiencia y versatilidad de nuestro equipo permite crear cualquier campaña para cualquier sector relacionado con el Marketing Promocional.",
-    "obj1": "Todas",
-    "obj2": "Electrónica",
-    "description2": "Smartwatch, Smartband, Cámaras Deportivas, Memorias USB, Altavoces Bluetooth, Tablets, Auriculares Bluetooth...",
+    "description": "The experience and versatility of our equipment allows to create any campaign for any sector related to the promotional Marketing.",
+    "obj1": "All",
+    "obj2": "Electronic",
+    "description21": "Smartwatch",
+    "description22": "Smartband",
+    "description23": "Cameras",
+    "description24": "Sports",
+    "description25": "USB Memory",
+    "description26": "Bluetooth Speakers",
+    "description27": "Bluetooth Headsets",
+    "description28": "Tablets...",
     "obj3": "Textil",
-    "description3": "Camisetas, Sudaderas, Gorras, Muñequeras, Landyar, Paraguas, Delantales, Cojines, Mochilas, Toallas...",
-    "obj4": "Escritorio",
-    "description4": "Calculadoras, Alfombrillas, Juegos de Escritorio, Blocs de Notas, Libretas, Bolígrafos...",
-    "obj5": "Ocio y Tiempo Libre",
-    "description5": "Vasos, Copas, Posavasos, Termos, Mini Macetas, Neveritas USB, Pelotas, Pulseras, Gafas de Sol...",
-    "obj6": "Complementos",
-    "description6": "Monederos, Carteras, Porta Pasaportes, Maletas, Maletines para Portátil, Tazas...",
-    "obj7": "Otros",
-    "description7": "Menaje, PAE, Belleza, Industrial, Imagen & Sonido, Alimentación, Editorial..."
+    "description31": "T-Shirts",
+    "description32": "Swearshirts",
+    "description33": "Caps",
+    "description34": "Muñequeras",
+    "description35": "Landyar",
+    "description36": "Umbrellas",
+    "description37": "Aprons",
+    "description38": "Cushion",
+    "description39": "Bags",
+    "description30": "Towels...",
+    "obj4": "Desktop",
+    "description41": "Calculators",
+    "description42": "Mouse Pads",
+    "description43": "Desktop Sets",
+    "description44": "Notepad",
+    "description45": "Notebooks",
+    "description46": "Pens...",
+    "obj5": "Leisure & Free Time",
+    "description51": "Glasses",
+    "description52": "Cups",
+    "description53": "Coasters",
+    "description54": "Mini-Pots",
+    "description55": "USB Mini-Fridges",
+    "description56": "Balls",
+    "description57": "Bracelets",
+    "description58": "Sunglasses...",
+    "obj6": "Complements",
+    "description61": "Purses",
+    "description62": "Wallets",
+    "description63": "Passports Protectors",
+    "description64": "Laptop Cases",
+    "description65": "Mugs...",
+    "obj7": "Others",
+    "description71": "Household",
+    "description72": "PAE",
+    "description73": "Beauty",
+    "description74": "Industrial",
+    "description75": "Images & Sound",
+    "description76": "Nutrition",
+    "description77": "Editorial..."
   },
   "sectors": {
-    "title": "Nuestros Sectores",
-    "description" : "Tras los años de experiencia que nos avalan, estamos presentes en clientes de los sectores más relevantes como:",
+    "title": "Our Sectors",
+    "description" : "After years of experience behind us, we are present in most relevant sectors customers as:",
     "obj1": "Retail",
     "obj2": "Banking",
     "obj3": "Automotive",
@@ -78,19 +116,20 @@
   },
   "contact": {
     "title": "Contact",
-    "description": "Quedamos a su disposición para cualquier pregunta o duda que tengan. Nuestro personal de Atención al Cliente estará encantado de poder ayudarles.",
+    "description": "We remain at your disposal for any questions or concerns that have. Our customer service staff will be happy to help them.",
     "button": "Send Message",
     "name": "Name *",
-    "name-error": "El nombre es obligatorio",
+    "name-error": "The name is mandatory",
     "email": "Email *",
-    "email-error": "Debe introducir un email válido",
+    "email-error": "You must enter a valid email",
     "phone": "Phone *",
-    "phone-error": "Debe introducir un teléfono válido",
+    "phone-error": "You must enter a valid phone",
     "subject": "Subject",
     "message": "Your Message *",
     "message-error": "Message is required"
   },
   "footer":{
+    "description": "PGD Group is a consulting firm specializing in the promotional market with more than 8 years of experience where we put at the disposal of our nationals and internationals clients our perspective of innovation, always focused on objectives.",
     "links": "Links",
     "directions": "Localizations"
   },
